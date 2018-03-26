@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.jaco9.echarts_demo.basic_demo.mapper.JsRkSzDayMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.jaco9.echarts_demo.basic_demo.entity.JsRkSzDay">
+        <result column="NF" property="nf" />
+        <result column="RKRQ" property="rkrq" />
+        <result column="SWJG_DM" property="swjgDm" />
+        <result column="GDSLX_DM" property="gdslxDm" />
+        <result column="ZSXM_DM" property="zsxmDm" />
+        <result column="ZSXMMC" property="zsxmmc" />
+        <result column="RKJE" property="rkje" />
+    </resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        NF AS nf, RKRQ AS rkrq, SWJG_DM AS swjgDm, GDSLX_DM AS gdslxDm, ZSXM_DM AS zsxmDm, ZSXMMC AS zsxmmc, RKJE AS rkje
+    </sql>
+
+</mapper>
